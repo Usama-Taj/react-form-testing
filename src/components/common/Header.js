@@ -51,6 +51,15 @@ const Header = () => {
                 Big
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                to="/redux-form"
+                activeclassname="nav-active"
+                className="nav-link"
+              >
+                Redux Form
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>

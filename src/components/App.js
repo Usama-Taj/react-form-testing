@@ -10,6 +10,7 @@ import Body from "./common/Body";
 import SmallForm from "./forms/SmallForm";
 import MediumForm from "./forms/MediumForm";
 import BigForm from "./forms/BigForm";
+import ReduxForm from "./forms/ReduxForm";
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/small-form" element={<SmallForm />} />
           <Route exact path="/medium-form" element={<MediumForm />} />
           <Route exact path="/big-form" element={<BigForm />} />
+          <Route exact path="/redux-form" element={<ReduxForm />} />
         </Routes>
       </Body>
     </Router>
